@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaa7e1;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    top: 30px;
+}
+
+.dropdown-content li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+    background-color: #ddd;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    width:30%;
+}
+
+.auth-buttons .login,
+.auth-buttons .signup {
+    padding: 12px 20px; /* Adjust padding for better appearance */
+    border: none;
+    cursor: pointer;
+    flex-grow: 1; /* Makes both buttons expand equally */
+    text-align: center;
+    box-shadow: 100%;
+}
+
+.auth-buttons .signup {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.auth-buttons .login {
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.transfer-box {
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 20%;
+    margin-top: 75px;
+}
+
+.box{
+    margin-top:20%;
+    border-radius: 5px;
+    box-shadow: 50px;
+    /* background-color: #ee7410; */
+
+    background-color: #FFEDD5; 
+    border: 5px solid #F97316; /* Deep Orange */
+    color: #e14c1b; /* Darker Orange for text */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+.recover-btn {
+    background-color: rgb(160, 17, 160);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.content {
+    text-align: left;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 5px;
+}
